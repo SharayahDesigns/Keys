@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #767f8f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+margin: -100px;
 }
 
 .App-link {
@@ -35,4 +36,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.keyboard {
+border: solid rgba(170, 173, 196, 0.514);
+border-width: 5px;
+width: 400px;
+height: 150px;
+margin: -4px;
+padding: 10px;
+background-color: rgb(34, 29, 29);
+}
+ 
+button {
+width: 30px;
+height: 30px;}
+
+
+button:hover {
+ /* width: 30px;
+height: 30px;
+/* margin: 3px;
+border-color: azure;
+hover  */ 
+color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(86, 113, 185, 0.089);
+
+text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(71, 96, 204);
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+text-align:center;
+  transition: all 0.5s ease-in-out;}
+
+
+
+ 
+.space {
+width: 250px;
+margin: 10px;
+text-align: center;
+
+}
+.typing {
+border: solid rgba(58, 51, 51, 0.6);
+border-width: 10px;
+background-color: rgb(223, 231, 231);
+color: rgb(44, 61, 212);
+width: 400px;
+height: 90px;
+
+}
+
+#wrap {
+position:absolute;
+z-index: 0;
+margin: -250px 20px 100px 220px;
+margin-top: -300px;
+width:auto;
+height: 150px;
+inline-size: 200px;
+overflow-wrap: break-word;
+overflow:-moz-hidden-unscrollable;
+text-align:center;
+color: black;
+
+}
+
+#text{
+display: ;
 }
